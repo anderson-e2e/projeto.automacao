@@ -1,0 +1,88 @@
+# =========================
+# Arquivos de compilação
+# =========================
+target/
+bin/
+out/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Configurações Maven
+# =========================
+# Diretório de build padrão do Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+# Logs de build
+mvnw
+mvnw.cmd
+
+# =========================
+# Arquivos de log e temporários
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs e Ferramentas
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+.recommenders/
+
+# VS Code
+.vscode/
+.history/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================
+# Selenium e relatórios de testes
+# =========================
+# Capturas de tela e relatórios gerados automaticamente
+screenshots/
+reports/
+test-output/
+surefire-reports/
+extent-reports/
+allure-results/
+allure-report/
+
+# =========================
+# Arquivos do sistema operacional
+# =========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
